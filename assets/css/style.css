@@ -371,7 +371,65 @@ p {
 
 .video {
     margin: 50px 50px;
+    width: 100%;
 }
+
+
+/* Form */
+
+.form {
+    max-width: 500px;
+    padding: 60px;
+    margin: 100px auto;
+    background-color: orange;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 30px;
+    
+    border: 1px solid #ccc;
+    
+    font-family: inherit;
+    font-size: 16px;
+  }
+  
+  .form__btn {
+    display: block;
+    width: 100%;
+    padding: 12px 10px;
+    
+    border: 0;
+    border-radius: 30px;
+    background-color: #272727;
+    cursor: pointer;
+    
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+    transition: color .3s linear;
+    transition: background .3s linear;
+  }
+  
+  .form__btn:hover {
+    background-color: white;
+    color: #272727;
+  }
+
+  .form__title{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #272727;
+    text-transform: uppercase;
+  }
+
+
+
+
+/* Footer */
 
 .footer {
     background-color: orange;
